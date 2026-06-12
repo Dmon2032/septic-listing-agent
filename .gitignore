@@ -1,34 +1,20 @@
-# Gradle files
-.gradle/
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
 build/
+.venv/
+venv/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Run logs — written locally and in CI but not tracked in git
+# (the workflow commits state/seen_listings.json instead)
+logs/*.log
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Generated reports — delivered via email; uploaded as artifacts on failure
+out/*.csv

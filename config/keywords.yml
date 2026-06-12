@@ -1,0 +1,22 @@
+structured_sewer_values:
+  - "septic"
+  - "septic tank"
+  - "private"
+  - "owts"
+  - "on-site"
+  - "cesspool"
+
+description_keywords:
+  - "septic"
+  - "septic system"
+  - "owts"
+  - "on-site wastewater"
+
+negation_patterns:
+  - "no septic"
+  - "not on septic"
+  - "removed septic"
+  - "converted to sewer"
+  - "sewer connected"
+  - "public sewer"
+  - "city sewer"

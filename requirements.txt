@@ -1,0 +1,6 @@
+httpx
+pydantic
+pyyaml
+python-dotenv
+tenacity
+pytest
