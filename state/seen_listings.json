@@ -1,4 +1,15 @@
 {
-  "last_run_utc": "1970-01-01T00:00:00Z",
-  "listing_ids": []
+  "last_run_utc": "2026-06-13T07:30:35.547668+00:00",
+  "listing_ids": [
+    "MOCK001",
+    "MOCK002",
+    "MOCK003",
+    "MOCK004",
+    "MOCK005",
+    "MOCK006",
+    "MOCK007",
+    "MOCK008",
+    "MOCK009",
+    "MOCK010"
+  ]
 }
